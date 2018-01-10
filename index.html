@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>Lunar Lander</title>
+		 <meta name="description" content="">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <link rel='stylesheet' media='screen and (min-width: 711px)' href='css/desktop.css'>
+		 <link rel='stylesheet' media='screen and (max-width: 710px)' href='css/movile.css'>
+		 <script src="js/js.js"></script>
+	</head>
+	<body id="fondo">
+		 <div id="nave">
+		 	<img id="imgNave" src="img/nave1.png" alt="imagen nave">
+		 </div>
+
+		 <div class="a">
+			 <div id="showm">Menu</div>
+			 <ul id="cpanel">
+				<li><!--Velocidad--><span id="velocidad">100</span><!--m/s--></li>
+				<li><!--Fuel--><span id="fuel">100</span><!--l--></li>
+				<li><!--Altura--><span id="altura">70</span><!--m--></li>
+			 </ul>
+		 </div>
+
+		 <div class="b"></div>
+
+		 <div class="c">
+			 <div id="hidem">Reanudar</div>
+			 <ul id="menu">
+				<a href="index.html"><li id="Reiniciar">Reiniciar</li></a>
+				<a href="help.html"><li id="Instrucciones">Instrucciones</li></a>
+			 </ul>
+
+			 <div id="botones">
+			 	<div id="play"></div>
+			 	<div id="pause"></div>
+				<div id="reset"></div>
+				<a href="help.html"><div id="int"></div></a>
+			 </div>
+		 </div>
+
+		 <div id="gameOver">
+			<h2>¡¡¡GAME OVER!!!</h2>
+			¡Inténtalo de nuevo! <br>
+			La velocidad de la nave no debe superar los 5 metros/segundo<br><br>
+			<a href="index.html"><button><h3>Reintentar</h3></button></a>
+		</div>
+
+		<div id="userWin">
+			<h2>¡¡¡ENHORABUENA!!!</h2>
+			¡Lo has conseguido!<br><br>
+			<a href="index.html"><button><h3>Jugar otra vez</h3></button></a>
+		</div>
+
+		 <div class="d">
+		 	<!--<img src="img/planeta.png" alt="imagen luna">-->
+		 </div>
+	</body>
+</html>
