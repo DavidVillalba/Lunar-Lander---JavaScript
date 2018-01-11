@@ -270,7 +270,7 @@ a:hover {color:white;}
 #boton {
 	border-style: outset;
 	border-radius: 50px;
-	display: inline-block;
+	display: none;
 	float: right;
 	background-color: grey;
 	margin: 10px;
