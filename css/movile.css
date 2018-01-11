@@ -230,3 +230,35 @@ a:hover {color:white;}
 	left: 10%;
 	top: 10%;
 }
+
+#reintento {
+	border-style: outset;
+	border-color: #848484;
+	display: inline-block;
+	background-color: #6E6E6E;
+	color: black;
+	margin: 5%;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 130%;
+	width: 25%;
+	height: 25px;
+	pointer-events: auto;
+}
+
+#jugarotravez {
+	border-style: outset;
+	border-color: #848484;
+	display: inline-block;
+	background-color: #6E6E6E;
+	color: black;
+	margin: 5%;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 130%;
+	width: 45%;
+	height: 25px;
+	pointer-events: auto;
+}
