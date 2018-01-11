@@ -26,7 +26,6 @@ window.onload = function(){
 	document.getElementById("pause").onclick=function(){pause();};
 	//Boton reinicio
 	document.getElementById("reset").onclick=function(){reiniciarJuego();};
-
 	
 	//definición de eventos
 	//mostrar menú móvil
@@ -45,6 +44,18 @@ window.onload = function(){
 	
 	//Empezar a mover la nave justo después de cargar la página
 	start();
+
+	//Boton táctil para smartphone!
+	var botonSmartphone = document.getElementById("boton");
+	botonSmartphone.addEventListener("touchstart", handlerFunction, false);
+	botonSmartphone.addEventListener("touchend", endingFunction, false);
+	function handlerFunction(event) {
+		motorOn();
+	}
+	function endingFunction(event) {
+		motorOff();
+	}
+	
 }
 
 //Definición de funciones
@@ -136,6 +147,7 @@ function reiniciarJuego() {
 	dt = 0.016683;
 	c = 100;
 	v = 0;
-	document.getElementById("fuel").innerHTML=100;
+	//document.getElementById("fuel").innerHTML=100;
 	start();
 }
+
