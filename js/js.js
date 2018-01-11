@@ -17,7 +17,12 @@ var combustible = null;
 
 //al cargar por completo la página...
 window.onload = function(){
-	
+	//captura si el dispositivo recibe eventos ontouch (SMARTPHONE)
+	function is_touch_device() {
+	if ('ontouchstart' in window) {document.getElementById("boton").style.display="inline-block";}		
+	}
+	is_touch_device();
+	//Variables
 	velocidad = document.getElementById("velocidad");
 	altura = document.getElementById("altura");
 	combustible = document.getElementById("fuel");
