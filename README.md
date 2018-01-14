@@ -2,7 +2,7 @@
 
 Versión final de Lunar Lander con JavaScrpit
 
-Jugar!!: https://cdn.rawgit.com/IsmaFuentes/Lunar-Lander---JavaScript/4b80e59d/index.html
+Jugar!!: https://rawgit.com/IsmaFuentes/Lunar-Lander---JavaScript/master/index.html
 
 Documentación:
 
