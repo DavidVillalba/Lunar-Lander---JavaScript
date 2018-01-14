@@ -22,5 +22,6 @@ Victoria/Derrota:
 Otros:
 - He cambiado el modelo de nave y la funcionalidad en general del proyecto.
 - Botón para smartphones: Solo se hace visible cuando detecta que el dispositivo recibe eventos "ontouch", funciona como la tecla espacio, al pulsar se activa el motor y al dejar de pulsar se desactiva.
+- He minificado el código en una rama nueva "versión minificada".
 
 validación: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcdn.rawgit.com%2FIsmaFuentes%2FLunar-Lander---JavaScript%2Fa5d96fab%2Findex.html
