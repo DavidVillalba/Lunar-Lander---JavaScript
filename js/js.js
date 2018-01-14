@@ -152,7 +152,7 @@ function reiniciarJuego() {
 	dt = 0.016683;
 	c = 100;
 	v = 0;
-	//document.getElementById("fuel").innerHTML=100;
+	document.getElementById("fuel").innerHTML=100;
 	start();
 }
 
